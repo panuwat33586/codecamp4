@@ -1,4 +1,4 @@
-export function main(str) {
+function main(str) {
 	let stack = [];
 		let map = {
 			'(': ')',
@@ -18,3 +18,5 @@ export function main(str) {
 		if (stack.length !== 0) {return false};
 		return true;
 }
+
+module.exports = { main };

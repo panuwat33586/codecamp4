@@ -1,4 +1,4 @@
-export function main(str) {
+function main(str) {
 	let count=0;
 	let container=[];
 	for(let i=0;i<str.length;i++){
@@ -14,3 +14,4 @@ export function main(str) {
 	return container
 }
 
+module.exports = { main };

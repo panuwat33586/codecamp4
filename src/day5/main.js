@@ -1,4 +1,4 @@
-export function main(arr) {
+function main(arr) {
 	let R=[]
 	let G=[]
 	let B=[]
@@ -17,3 +17,4 @@ export function main(arr) {
 	return RGB
 }
 
+module.exports = { main };

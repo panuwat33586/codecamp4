@@ -10,4 +10,8 @@ export function main(str, str2) {
 	}
 	};
 	return A  
+function main(str, str2) {
+	// Your code begins here;
 }
+
+module.exports = { main };
